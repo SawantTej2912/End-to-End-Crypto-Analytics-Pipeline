@@ -1,0 +1,26 @@
+crypto_analytics_dbt:
+  outputs:
+    dev:
+      account: LVB17920
+      database: USER_DB_PARROT
+      password: Sawant@29122001
+      role: TRAINING_ROLE
+      schema: PARROT_FEAT
+      threads: 2
+      type: snowflake
+      user: PARROT
+      warehouse: PARROT_QUERY_WH
+  target: dev
+hw7_dbt:
+  outputs:
+    dev:
+      account: SFEDU02-LVB17920
+      database: USER_DB_PARROT
+      password: Sawant@29122001
+      role: TRAINING_ROLE
+      schema: ANALYTICS
+      threads: 1
+      type: snowflake
+      user: PARROT
+      warehouse: PARROT_QUERY_WH
+  target: dev
