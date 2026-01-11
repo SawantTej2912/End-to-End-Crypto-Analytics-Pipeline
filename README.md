@@ -1,5 +1,5 @@
 
-# Lab 2 – End-to-End Crypto Analytics Pipeline  
+# End-to-End Crypto Analytics Pipeline  
 ### Snowflake • Apache Airflow • dbt • Preset (BI Dashboard)
 
 This project implements a full **data engineering + ELT + analytics** pipeline for cryptocurrency price analytics using:
@@ -10,7 +10,7 @@ This project implements a full **data engineering + ELT + analytics** pipeline f
 - **Preset (Apache Superset)** for data visualization  
 - **yfinance** as the data source for BTC-USD and ETH-USD  
 
-This Lab-2 project extends concepts from **Lab-1: Stock Price Predictor using Snowflake**, originally implemented by my teammate **Vaheedur Rehman**, and builds a more complete ELT workflow.
+This project extends concepts from **Lab-1: Stock Price Predictor using Snowflake**, originally implemented by my teammate **Vaheedur Rehman**, and builds a more complete ELT workflow.
 
 ---
 
